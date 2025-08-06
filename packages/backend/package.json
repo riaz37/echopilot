@@ -1,0 +1,15 @@
+{
+  "name": "@repo/backend",
+  "type": "module",
+  "scripts": {
+   "dev": "convex dev",
+   "setup": "convex dev --until-success"
+  },
+  "exports": {
+    "./convex": "./convex/*.ts"
+  },
+  "devDependencies": {
+    "@repo/typescript-config": "workspace:*",
+    "typescript": "latest"
+  }
+}
